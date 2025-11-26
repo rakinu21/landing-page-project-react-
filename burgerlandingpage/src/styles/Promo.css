@@ -1,0 +1,56 @@
+.promo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+   background-color: #D3322A;
+  flex-wrap: wrap; /* makes it responsive */
+  margin-top: 30px;
+}
+
+.promo-content {
+  flex: 1 1 300px;
+  text-align: left;
+}
+
+.promo-content h2 {
+  font-size: clamp(1rem, 3vw , 4rem);
+  margin-bottom: 1rem;
+  letter-spacing: -2px;
+  color: #fff;
+}
+
+.promo-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+   font-size: clamp(1rem, 2vw , 3rem);
+  color: #fff;
+}
+
+.promo-btn {
+  display: inline-block;
+  background: #fff;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #b32b24;
+}
+
+
+
+.promo-image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.promo-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 15px;
+}

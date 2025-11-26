@@ -76,7 +76,7 @@ const dataBurger = [
     "active": true,
     "title": "🔥 Weekly Combo Deal",
     "description": "Any signature burger + fries + drink for only $14.99.",
-    "image": "/assets/promos/combo-deal.png",
+    "image": "/public/combo.png",
     "cta": {
       "label": "Claim Offer",
       "href": "/order?promo=weekly-combo"

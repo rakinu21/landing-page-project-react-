@@ -3,6 +3,7 @@ import './App.css'
 import { Navbar } from './components/Navbar'
 import { FeaturedSection } from './pages/FeaturedSection.JSX'
 import { Hero } from './pages/Hero'
+import { Promo } from './pages/Promo'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
 
           <Hero/>
           <FeaturedSection/>
+          <Promo/>
       </div>
      </section>
   )
