@@ -49,7 +49,7 @@ const dataBurger = [
       {
         "id": "classic-cheddar",
         "name": "Classic Cheddar",
-        "image": "/assets/burgers/classic-cheddar.png",
+        "image": "/public/featured1.png",
         "price": 9.99,
         "tags": ["best seller", "beef"],
         "description": "Grass-fed beef, aged cheddar, crisp lettuce, tomato, and house sauce."
@@ -57,7 +57,7 @@ const dataBurger = [
       {
         "id": "truffle-burst",
         "name": "Truffle Burst",
-        "image": "/assets/burgers/truffle-burst.png",
+        "image": "/public/featured1.png",
         "price": 12.49,
         "tags": ["chef’s choice"],
         "description": "Black truffle aioli, caramelized onions, smoked gouda on a brioche bun."
@@ -65,7 +65,7 @@ const dataBurger = [
       {
         "id": "volcano-spice",
         "name": "Volcano Spice",
-        "image": "/assets/burgers/volcano-spice.png",
+        "image": "/public/featured1.png",
         "price": 11.79,
         "tags": ["spicy"],
         "description": "Fiery pepper sauce, jalapeños, spicy jack cheese, and crunchy onions."

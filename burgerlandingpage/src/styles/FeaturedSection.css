@@ -1,0 +1,75 @@
+
+
+.featured-section {
+  padding: 2rem;
+}
+
+.featured-header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 2rem;
+
+  h2{
+    font-size: clamp(2rem, 3vw ,4rem);
+  }
+
+  p{
+    font-size: clamp(1rem, 2vw ,3rem);
+  }
+  
+}
+
+.featured-items {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap; /* items wrap on smaller screens */
+  justify-content: center;
+}
+
+.featured-card {
+  flex: 1 1 300px; /* flexible width, min 250px */
+  max-width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #ffdbc4;
+}
+
+.featured-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.featured-card h3 {
+  margin: 0.5rem 0;
+  font-size: clamp(1rem , 2vw , 2rem);
+}
+
+.featured-card p{
+   font-size: clamp(0.5rem , 1.2vw , 1.2rem);
+}
+
+.featured-card .price {
+  font-weight: bold;
+  margin: 0.5rem 0;
+   font-size: clamp(1rem , 2vw , 2rem);
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  background-color: #f7c842;
+  color: #000;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}

@@ -1,6 +1,7 @@
 
 import './App.css'
 import { Navbar } from './components/Navbar'
+import { FeaturedSection } from './pages/FeaturedSection.JSX'
 import { Hero } from './pages/Hero'
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div className="main-container">
 
           <Hero/>
-
+          <FeaturedSection/>
       </div>
      </section>
   )
