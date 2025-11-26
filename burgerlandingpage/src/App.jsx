@@ -1,6 +1,7 @@
 
 import './App.css'
 import { Navbar } from './components/Navbar'
+import { Hero } from './pages/Hero'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
 
       <div className="main-container">
 
-
+          <Hero/>
 
       </div>
      </section>

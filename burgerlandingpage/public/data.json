@@ -1,4 +1,3 @@
-const dataBurger = [
 
     {
   "site": {
@@ -14,7 +13,7 @@ const dataBurger = [
         "background": "#ffffff",
         "text": "#1a1a1a"
       }
-    },
+    }
   },
   "navigation": {
     "links": [
@@ -38,7 +37,7 @@ const dataBurger = [
     ],
     "media": {
       "type": "image",
-      "src": "/public/hero1.png",
+      "src": "/assets/hero/hero-burger.png",
       "alt": "Signature Gourmet Burger"
     }
   },
@@ -116,7 +115,6 @@ const dataBurger = [
   }
 }
 
-]
 
 
-export default dataBurger
+
