@@ -15,17 +15,6 @@ const dataBurger = [
         "text": "#1a1a1a"
       }
     },
-    "seo": {
-      "title": "PrimeBite — Gourmet Burgers Crafted to Perfection",
-      "description": "Experience handcrafted gourmet burgers made with premium beef, fresh ingredients, and bold flavors.",
-      "keywords": [
-        "gourmet burgers",
-        "burger restaurant",
-        "craft burgers",
-        "best burgers"
-      ],
-      "social_preview": "/assets/seo/preview.png"
-    }
   },
   "navigation": {
     "links": [

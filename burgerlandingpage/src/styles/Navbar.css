@@ -1,0 +1,38 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 3rem;
+    flex-wrap: wrap;
+
+
+    .nav{
+
+        display: flex;
+        text-align: center;
+        align-items: center;
+        list-style: none;
+        gap: 30px;
+      
+        height: inherit;
+
+        li{
+            cursor: pointer;
+        }
+    }
+
+
+    button{
+
+        padding: .5rem 1rem;
+        cursor: pointer;
+        background-color:#D3322A ;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        text-transform: capitalize;
+    }
+
+}
