@@ -75,3 +75,54 @@
  background-color: transparent;
  color: black;
 }
+
+
+/* Tablets – stack layout vertically */
+@media (max-width: 1024px) {
+  .hero-content {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+
+  .hero-content-left {
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
+
+/* Mobile – reduce image + text sizes */
+@media (max-width: 768px) {
+  .hero-content-left h1 {
+    letter-spacing: -2px;
+  }
+
+  .hero-content-right img {
+    max-width: 450px;
+  }
+
+  .hero-content {
+    gap: 2rem;
+    display: grid;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .hero-content-left h1 {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+  }
+
+  .hero-content-right img {
+    max-width: 320px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}

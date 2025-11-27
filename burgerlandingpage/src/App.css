@@ -4,3 +4,29 @@
   flex-direction: column;
   padding: 0 3rem;
 }
+
+
+
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+   .main-container{
+    padding: 0 1.5rem;
+   }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main-container{
+    padding: 0 1.5rem;
+   }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+   
+  .main-container{
+    padding: 0 1.5rem;
+   }
+}
