@@ -1,0 +1,62 @@
+.app-container{
+  display: flex;
+
+  transition: 0.5s ease;
+  
+}
+
+
+/* Content area */
+.main-content {
+  flex-grow: 1;
+  padding:  0 3rem;
+  margin-left: 0;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+/* If you want content to move when sidebar opens */
+.sidebar.open ~ .main-content {
+  margin-left: 260px;
+}
+
+.button-toggle{
+  width: 300px;
+  height: auto;
+    transition: left 0.3s ease-in-out;   /* smooth slide */
+  z-index: 1;
+  position: fixed;
+  left: -250px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: clamp(2rem, 3vw , 4rem);
+  cursor: pointer;
+ 
+  padding: 0;
+}
+
+.button-open{
+  left: 10px;
+}
+
+/* Sidebar transition container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -260px;     /* hide sidebar initially */
+  width: 260px;
+  height: 100vh;
+  background: #1e1e1e;
+  color: #fff;
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;   /* smooth slide */
+  z-index: 1;
+}
+
+/* When open */
+.sidebar.open {
+  left: 0;          /* slide in */
+}
+
+
+

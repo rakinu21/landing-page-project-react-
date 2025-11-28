@@ -1,0 +1,67 @@
+/* Parent sidebar */
+.parent-munus {
+  width: 260px;          /* adjust width as needed */
+  height: 100vh;         /* Full screen height */
+  background: #1e1e1e;   /* sidebar background */
+  color: #fff;           /* text color */
+  padding-top: 50px;
+  overflow-y: auto;      /* scroll if content grows */
+  transition: 0.5s ease-in-out;
+  
+}
+
+/* Main UL */
+.menu {
+  list-style: none;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Each list item */
+.menu li {
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+/* Nested menus */
+.menu ul {
+  margin-left: 20px;
+  border-left: 2px solid #444;
+  padding-left: 15px;
+}
+
+/* The “+ / -” toggle icon */
+.menu span {
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+  transition: 0.5s ease;
+
+  &:hover{
+    transform: rotate(20deg);
+  }
+}
+
+
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: clamp(1rem , 2vw, 1.7rem);
+
+    .link{
+      transition: 0.5s ease;
+      letter-spacing: -2px;
+      text-decoration: none;
+      color: #fff;
+
+      &:hover{
+
+        color: aqua;
+      }
+    }
+}
