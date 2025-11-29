@@ -5,6 +5,7 @@ import { IndexNavbar } from './components/Navbar/IndexNavbar'
 import menu from './server/Menu.js'
 import {Routes , Route} from 'react-router-dom'
 import { TbArrowBadgeLeft, TbArrowBadgeRight } from "react-icons/tb";
+import { Hero } from './pages/Hero.jsx'
 function App() {
 
 
@@ -24,7 +25,7 @@ function App() {
 
       <main className='main-content'>
        <Routes>
-          <Route path="/" element={<h1>Home Page</h1>} />
+          <Route path="/" element={<Hero/>}/>
           <Route path="/about" element={<h1>About Page</h1>} />
           <Route path="/about/skills" element={<h1>Skills Page</h1>} />
           <Route path="/about/experience" element={<h1>Experience Page</h1>} />
