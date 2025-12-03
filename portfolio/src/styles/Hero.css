@@ -1,0 +1,179 @@
+.hero{
+
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    background-color: white;
+  position: sticky;
+    top: -500px;
+    .text-content{
+        text-align: center;
+
+        h1{
+
+            font-size: clamp(2rem , 10vw ,15rem);
+            letter-spacing: -5px;
+              font-family: "League Script", cursive;
+             font-weight: 100;
+
+        }
+    }
+
+    .image-container-and-subtext{
+    margin-top:-100px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        position: relative;
+     
+          
+         
+   .image-container{
+     
+    height: 700px;
+     width: 100%;
+     max-width: 700px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+    aspect-ratio: 3/7;
+     
+
+    img{
+        object-fit:cover;
+        width: 100%;
+        height: auto;
+        object-position: 0 10%;
+      
+    
+   }
+
+ 
+}
+p {
+  font-weight: 100;
+  font-size: clamp(1.2rem ,3vw , 2rem);
+  font-style: italic;
+
+
+}
+
+ .subtext-skills{
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: end;
+          gap: 100px;
+          
+
+          p{
+              font-size: clamp(1.2rem ,3vw , 2.4rem);
+              text-transform: uppercase;
+              letter-spacing: -2px;
+          }
+
+          ul{
+
+          
+            display: flex;
+            flex-direction: column;
+            margin-right: auto;
+            gap: 4px;
+            padding: 1rem;
+            margin-top: -10px;
+
+            li{
+                list-style: none;
+                font-size: clamp(1.2rem ,2vw , 1.5rem);
+                text-transform: capitalize;
+                font-style: italic;
+                letter-spacing: -1px;
+            }
+          }
+          
+          
+        }
+
+
+       
+       
+    }
+
+
+     .button-container{
+            right: 0;
+            bottom: 0;
+            padding: 0 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            gap: 30px;
+
+            button{
+                padding: 0.5rem 2rem;
+
+            }
+
+
+        .social-list {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          gap: 15px;
+
+          li{
+
+         display: flex;
+          position: relative;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background: #f1f1f1;
+          color: #333;
+          text-decoration: none;
+        
+          transition: 0.3s ease;
+
+          a{
+            color: #333;
+            position: absolute;
+            transform: translate(-50% , -50%);
+            top: 50%;
+            left: 50%;
+            font-size: 20px;
+          }
+          }
+
+
+       
+
+
+        }
+
+
+           .download-btn{
+
+             padding: 12px 26px;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.3s ease;
+
+            &:hover{
+                background: #555;
+                transform: translateY(-3px);
+            }
+          }
+        }
+}
+

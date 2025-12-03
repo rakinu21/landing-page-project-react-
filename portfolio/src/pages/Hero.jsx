@@ -65,6 +65,8 @@ export const Hero = () => {
       </ul>
              <button className='download-btn'>download cv</button>
            </div>
+
+           
          
     </section>
   )
